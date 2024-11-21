@@ -95,7 +95,7 @@ FILE(APPEND ${EMsoftOO_SDK_FILE} "#---------------------------------------------
 FILE(APPEND ${EMsoftOO_SDK_FILE} "# BSPLINEFORTRAN Library Location\n")
 if(APPLE)
   FILE(APPEND ${EMsoftOO_SDK_FILE} "set(BSPLINEFORTRAN_INSTALL \"\${EMsoftOO_SDK_ROOT}/${extProjectName}-${BSPLINEFORTRAN_VERSION}-\${BUILD_TYPE}\" CACHE PATH \"\")\n")
-  FILE(APPEND ${EMsoftOO_SDK_FILE} "set(BSPLINEFORTRAN_DIR \"\${EMsoftOO_SDK_ROOT}/${extProjectName}-${BSPLINEFORTRAN_VERSION}-\${BUILD_TYPE}/lib/cmake/${extProjectName}-${FC_NAME}-${BSPLINEFORTRAN_VERSION}\" CACHE PATH \"\")\n")
+  FILE(APPEND ${EMsoftOO_SDK_FILE} "set(BSPLINEFORTRAN_DIR \"\${EMsoftOO_SDK_ROOT}/${extProjectName}-${BSPLINEFORTRAN_VERSION}-\${BUILD_TYPE}/lib\" CACHE PATH \"\")\n")
   FILE(APPEND ${EMsoftOO_SDK_FILE} "set(${extProjectName}-${FC_NAME}_DIR \"\${BSPLINEFORTRAN_DIR}\" CACHE PATH \"\")\n")
 elseif(MSVC_IDE)
   FILE(APPEND ${EMsoftOO_SDK_FILE} "set(BSPLINEFORTRAN_INSTALL \"\${EMsoftOO_SDK_ROOT}/${extProjectName}-${BSPLINEFORTRAN_VERSION}\" CACHE PATH \"\")\n")

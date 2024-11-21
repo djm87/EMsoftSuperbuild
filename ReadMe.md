@@ -51,6 +51,7 @@ Git verison 2.x is required.
 | Json-Fortran | 4.2.1 | Compiled from source on GitHub |
 | Eigen | 3.3.5 | Compiled from Source |
 | Qt 5 | 5.12.4 | Precompiled Binaries from [www.qt.io](http://download.qt.io) |
+| bspline-fortran | 7.4.0 | Compiled from Source on GitHub (added 11/21/2024) |
 
 ## macOS/Linux Instructions ##
 
