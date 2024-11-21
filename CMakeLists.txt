@@ -198,7 +198,7 @@ include(Eigen)
 include(HDF5)
 # include(HDF5pl)
 include(TBB)
-
+include(bspline-fortran)
 
 #--------------------------------------------------------------------------------------------------
 # Are we installing Qt (ON by default)
