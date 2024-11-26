@@ -10,7 +10,9 @@ set(extProjectName "BSPLINEFORTRAN")
 
 #------------------------------------------------------------------------------
 set(BSPLINEFORTRAN_VERSION "7.4.0")
-set(GIT_REPOSITORY_URL "https://github.com/jacobwilliams/bspline-fortran")
+# we pull from a forked repository since a change was made to make the 
+# set_extrap_flag routine public in the object oriented version of the package...
+set(GIT_REPOSITORY_URL "https://github.com/marcdegraef/bspline-fortran")
 
 message(STATUS "Building: ${extProjectName} ${BSPLINEFORTRAN_VERSION}: -DBUILD_BSPLINEFORTRAN=${BUILD_BSPLINEFORTRAN}" )
 
